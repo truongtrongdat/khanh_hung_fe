@@ -164,7 +164,7 @@ export default function AuthTabs() {
   }
 
   return (
-    <div className="w-full lg:banner-right lg:text-xl bg-transparent rounded-lg overflow-hidden flex flex-col items-start justify-start">
+    <div className="w-full lg:banner-right lg:w-1/3 lg:text-xl bg-transparent rounded-lg overflow-hidden flex flex-col items-start justify-start">
       <div className="text-white mt-4 mb-10">
         <p className="font-bold mb-2 lg:text-3xl lg:scale-95 text-center">
           KHÓA HỌC KINH DOANH KHÓA HỌC hoàn toàn miễn phí

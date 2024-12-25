@@ -54,7 +54,7 @@ const VideoUpload: React.FC<VideoUploadProps> = ({ initialLink, onChange }) => {
       }
       const formData = new FormData();
       formData.append("video", file);
-      fetch('http://127.0.0.1:8080/api/video/upload', {
+      fetch('https://media.vuacontent/api/video/upload', {
         method: 'POST',
         body: formData
       })
