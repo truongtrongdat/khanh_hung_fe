@@ -5,7 +5,7 @@ import { ResponseData } from '../types';
 
 
 const axiosCustomerConfig = axios.create({
-  baseURL: 'https://api.khanhhung.lokid.xyz/api/v1',
+  baseURL: 'https://api.vuacontent.vn/api/v1',
   timeout: 20000,
   headers: {
     'Content-Type': 'application/json',

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://api.khanhhung.lokid.xyz/api/v1/admin',
+  baseURL: 'https://api.vuacontent.vn/api/v1/admin',
   timeout: 20000,
   headers: {
     'Content-Type': 'application/json',
