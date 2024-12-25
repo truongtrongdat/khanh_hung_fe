@@ -1,7 +1,7 @@
 
 export default function Teaching() {
     return (
-        <section className="what-teaching personalized sec-com add-active-js">
+        <div className="what-teaching personalized sec-com add-active-js">
             <div className="container">
                 <div className="personalized-head">
                     <h2 className="sec-com-tt txt-center txt-upper">
@@ -104,6 +104,6 @@ export default function Teaching() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

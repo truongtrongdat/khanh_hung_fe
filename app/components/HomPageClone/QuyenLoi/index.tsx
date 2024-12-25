@@ -4,7 +4,7 @@ import ScrollComponent from '../../../components/Scroll/ScrollComponent'
 export default function QuyenLoi() {
     return (
 
-        <section className="sec-com benefit-a titleJS" id="quyen_loi">
+        <div className="sec-com benefit-a titleJS" id="quyen_loi">
             <div className="benefit-a-mask"> </div>
             <div className="container">
                 <div className="top-head">
@@ -1439,7 +1439,7 @@ export default function QuyenLoi() {
             <div id="stars" />
             <div id="stars2" />
             <div id="stars3" />
-        </section>
+        </div>
 
     )
 }

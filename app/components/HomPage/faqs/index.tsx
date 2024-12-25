@@ -38,7 +38,7 @@ export default function Faqs() {
     }
 
     return (
-        <section id='faqs' className="py-10">
+        <div id='faqs' className="py-10">
             <div className="w-11/12 px-4 lg:px-0 lg:w-8/12 mx-auto mt-10">
                 <h3 className="text-3xl  font-bold text-center mb-6 mt-10 lg:mt-20 text-white">
                     Chúng tôi có thể giúp gì <br className="hidden md:block" /> cho bạn
@@ -63,6 +63,6 @@ export default function Faqs() {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 }

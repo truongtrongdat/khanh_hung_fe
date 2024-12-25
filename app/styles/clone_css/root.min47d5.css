@@ -59,7 +59,7 @@ q,
 ruby,
 s,
 samp,
-section,
+div,
 small,
 span,
 strike,
@@ -97,7 +97,7 @@ header,
 hgroup,
 menu,
 nav,
-section {
+div {
   display: block;
 }
 body {
@@ -223,42 +223,42 @@ textarea {
   overflow: hidden;
   overscroll-behavior: none;
 }
-.section {
+.div {
   background-color: #fff;
   position: relative;
   padding: 6rem 0;
 }
 @media (max-width: 1500px) {
-  .section {
+  .div {
     padding: 6.4rem 0;
   }
 }
 @media (max-width: 1200px) {
-  .section {
+  .div {
     padding: 5.6rem 0;
   }
 }
 @media screen and (max-width: 768px) {
-  .section {
+  .div {
     padding: 2.8rem 0;
   }
 }
-.section-12 {
+.div-12 {
   position: relative;
   padding: 12rem 0;
 }
 @media (max-width: 1500px) {
-  .section-12 {
+  .div-12 {
     padding: 8rem 0;
   }
 }
 @media (max-width: 1200px) {
-  .section-12 {
+  .div-12 {
     padding: 5.6rem 0;
   }
 }
 @media screen and (max-width: 768px) {
-  .section-12 {
+  .div-12 {
     padding: 2.8rem 0;
   }
 }
@@ -3478,19 +3478,19 @@ img {
   display: inline;
 }
 .sec-com {
-  --padding-section: 8rem;
-  --padding-section-tl: 4.8rem;
-  --padding-section-mobile: 2.4rem;
-  padding: var(--padding-section) 0;
+  --padding-div: 8rem;
+  --padding-div-tl: 4.8rem;
+  --padding-div-mobile: 2.4rem;
+  padding: var(--padding-div) 0;
 }
 @media screen and (max-width: 1200px) {
   .sec-com {
-    padding: var(--padding-section-tl) 0;
+    padding: var(--padding-div-tl) 0;
   }
 }
 @media screen and (max-width: 576px) {
   .sec-com {
-    padding: var(--padding-section-mobile) 0;
+    padding: var(--padding-div-mobile) 0;
   }
 }
 .sec-com-bg {

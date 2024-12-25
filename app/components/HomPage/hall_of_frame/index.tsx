@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function HallOfFrame() {
 
     return (
-        <section id="hall_of_wall" className='w-full pb-50 relative'>
+        <div id="hall_of_wall" className='w-full pb-50 relative'>
             <div className="w-full h-auto absolute top-100">
                 <Image src={"/template/assets/images/home/colleague-success-decor.png"} width={1000} height={100} alt="" style={{width:"100%", height:"auto"}}/>
             </div>
@@ -87,6 +87,6 @@ export default function HallOfFrame() {
                 ))}
 
             </div>
-        </section>
+        </div>
     )
 }

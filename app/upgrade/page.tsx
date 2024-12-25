@@ -7,7 +7,7 @@ import UpgradeForm from '../components/HomPage/UpgradeForm';
 export default function UpgradePage() {
 
     return <div className='w-full min-h-screen flex flex-col items-center justify-start bg-[linear-gradient(180deg,#340658,#7c0fd1)]'>
-        <section className='w-full max-w-[1920px] h-auto p-4 flex flex-col xl:gap-10 items-center' style={{ backgroundImage: `url('/assets/images/up-bg-top.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className='w-full max-w-[1920px] h-auto p-4 flex flex-col xl:gap-10 items-center' style={{ backgroundImage: `url('/assets/images/up-bg-top.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
             <div className="w-1/2 hidden lg:block lg:h-[220px] m-auto my-4 relative bg-transparent">
                 <div className="absolute w-[75rem] max-w-full z-10">
@@ -48,9 +48,9 @@ export default function UpgradePage() {
                 <p className="text-[1.2rem]"> Vậy còn chờ gì nữa</p>
             </div>
 
-        </section>
+        </div>
 
-        <section className='w-full max-w-[1920px] h-auto p-4 flex flex-col xl:gap-10 items-center'>
+        <div className='w-full max-w-[1920px] h-auto p-4 flex flex-col xl:gap-10 items-center'>
             <div className="w-1/2 text-center">
                 <p className="font-[600] leading-[150%] text-[3.2rem] text-[#f5851e]">Bắt đầu ngay hôm nay</p>
                 <div className="w-full h-2">
@@ -75,11 +75,11 @@ export default function UpgradePage() {
                     <p className="font-semibold leading-[150%] text-[2.4rem]">TẠO RA KHOÁ HỌC VÀ THỰC SỰ THÀNH CÔNG VỚI E-LEARNING</p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section className='w-full h-auto p-4 flex flex-col items-center' style={{ backgroundImage: `url('/assets/images/up-bg-bottom.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className='w-full h-auto p-4 flex flex-col items-center' style={{ backgroundImage: `url('/assets/images/up-bg-bottom.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <UpgradeForm />
-        </section>
+        </div>
 
     </div>;
 }

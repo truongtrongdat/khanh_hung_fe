@@ -20,7 +20,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
 
   return (
     <div className="flex-1">
-      <div className="h-auto w-full flex justify-center text-white video_section">
+      <div className="h-auto w-full flex justify-center text-white video_div">
         <VideoPlayerType videoSrc={videoUrl} />
       </div>
       <div className="mt-10">

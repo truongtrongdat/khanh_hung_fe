@@ -2,7 +2,7 @@
 export default function ComingSoon() {
     return (
 
-        <section className="sec-com coming-soon">
+        <div className="sec-com coming-soon">
             <div className="colleague-club-mask"> </div>
             <div className="container">
                 <div className="sec-com-header coming-soon-header txt-center">
@@ -985,6 +985,6 @@ export default function ComingSoon() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

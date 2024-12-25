@@ -84,7 +84,7 @@ menu,
 nav,
 output,
 ruby,
-section,
+div,
 summary,
 time,
 mark,
@@ -107,7 +107,7 @@ header,
 hgroup,
 menu,
 nav,
-section {
+div {
   display: block; }
 
 body {
@@ -1192,17 +1192,17 @@ img {
   .banner.blog .bn-content .inner {
     padding: 2rem 0 2rem 1.5rem; } }
 
-.banner.blog .bn-content .tt-section {
+.banner.blog .bn-content .tt-div {
   color: #ffffff;
   text-align: left;
   margin-bottom: 2.4rem; }
 
 @media (max-width: 1200px) {
-  .banner.blog .bn-content .tt-section {
+  .banner.blog .bn-content .tt-div {
     line-height: 1.6; } }
 
 @media (max-width: 768) {
-  .banner.blog .bn-content .tt-section {
+  .banner.blog .bn-content .tt-div {
     font-size: 3rem; } }
 
 .banner.blog .bn-content .desc {
@@ -3314,7 +3314,7 @@ img {
 .btn.btn-dow:hover::after {
   width: 100%; }
 
-.tt-section {
+.tt-div {
   --font-size: 4.8rem;
   text-align: center;
   font-size: var(--font-size);
@@ -3325,11 +3325,11 @@ img {
   transition: 0.3s linear; }
 
 @media (max-width: 1200px) {
-  .tt-section {
+  .tt-div {
     font-size: 3.8rem; } }
 
 @media (max-width: 768px) {
-  .tt-section {
+  .tt-div {
     font-size: 2.8rem; } }
 
 .txt-bg {
@@ -3887,31 +3887,31 @@ img {
   width: 100%;
   height: 100%; }
 
-.courses-lf-hd .tt-section {
+.courses-lf-hd .tt-div {
   color: #ffffff;
   text-align: left;
   margin-bottom: 1.6rem; }
 
 @media (max-width: 1200px) {
-  .courses-lf-hd .tt-section {
+  .courses-lf-hd .tt-div {
     font-size: 3rem;
     line-height: 1.4; } }
 
 @media (max-width: 991px) {
-  .courses-lf-hd .tt-section br {
+  .courses-lf-hd .tt-div br {
     display: none; } }
 
 @media (max-width: 991px) {
-  .courses-lf-hd .tt-section {
+  .courses-lf-hd .tt-div {
     text-align: center; } }
 
 @media (max-width: 768px) {
-  .courses-lf-hd .tt-section {
+  .courses-lf-hd .tt-div {
     font-size: 3rem;
     line-height: 1.4; } }
 
 @media (max-width: 575px) {
-  .courses-lf-hd .tt-section {
+  .courses-lf-hd .tt-div {
     font-size: 2.4rem; } }
 
 .courses-lf-hd .video {
@@ -9375,18 +9375,18 @@ img {
   line-height: 1.8rem;
   text-transform: uppercase; }
 
-.blog-dt-content .tt-section {
+.blog-dt-content .tt-div {
   font-size: 4rem;
   line-height: 5.2rem;
   text-align: left; }
 
 @media (max-width: 1200px) {
-  .blog-dt-content .tt-section {
+  .blog-dt-content .tt-div {
     font-size: 3.4rem;
     line-height: 1.4; } }
 
 @media (max-width: 768px) {
-  .blog-dt-content .tt-section {
+  .blog-dt-content .tt-div {
     font-size: 2.8rem;
     line-height: 1.4; } }
 
@@ -9803,7 +9803,7 @@ img {
   .related-posts {
     padding: 6rem 0; } }
 
-.post-list .tt-section {
+.post-list .tt-div {
   text-align: left;
   margin-bottom: 2.4rem; }
 
@@ -9845,21 +9845,21 @@ img {
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px); }
 
-.heading-blog .tt-section {
+.heading-blog .tt-div {
   font-size: 5.6rem;
   margin: 0 auto 1.6rem; }
 
 @media (max-width: 1200px) {
-  .heading-blog .tt-section {
+  .heading-blog .tt-div {
     font-size: 4rem;
     line-height: 1.4; } }
 
 @media (max-width: 768px) {
-  .heading-blog .tt-section {
+  .heading-blog .tt-div {
     font-size: 3rem; } }
 
 @media (max-width: 575px) {
-  .heading-blog .tt-section {
+  .heading-blog .tt-div {
     padding: 0 1.2rem; } }
 
 .heading-blog .desc {
@@ -10070,13 +10070,13 @@ img {
   .posts.blog {
     margin-bottom: 2rem; } }
 
-.posts.blog .tt-section {
+.posts.blog .tt-div {
   font-size: 4rem;
   margin-bottom: 1.6rem;
   text-align: left; }
 
 @media (max-width: 768px) {
-  .posts.blog .tt-section {
+  .posts.blog .tt-div {
     font-size: 3rem; } }
 
 .posts.blog .post-list {
@@ -10498,37 +10498,37 @@ img {
   .box-hd-content {
     padding: 0 1.2rem; } }
 
-.box-hd-content .tt-section {
+.box-hd-content .tt-div {
   font-size: 4.8rem;
   text-align: left; }
 
 @media (max-width: 1200px) {
-  .box-hd-content .tt-section {
+  .box-hd-content .tt-div {
     font-size: 4rem;
     line-height: 1.4; }
-  .box-hd-content .tt-section br {
+  .box-hd-content .tt-div br {
     display: none; } }
 
 @media (max-width: 768px) {
-  .box-hd-content .tt-section {
+  .box-hd-content .tt-div {
     font-size: 3rem; } }
 
-.box-hd-content .tt-section .txt {
+.box-hd-content .tt-div .txt {
   position: relative; }
 
-.box-hd-content .tt-section .ldecor {
+.box-hd-content .tt-div .ldecor {
   position: absolute;
   top: -160%;
   left: -42%;
   width: 189%; }
 
 @media (max-width: 1200px) {
-  .box-hd-content .tt-section .ldecor {
+  .box-hd-content .tt-div .ldecor {
     top: -132%;
     left: -32%;
     width: 164%; } }
 
-.box-hd-content .tt-section .ldecor img {
+.box-hd-content .tt-div .ldecor img {
   width: 100%;
   height: 100%; }
 
@@ -10953,7 +10953,7 @@ img {
 }
 
 @media (max-width:575px) {
-    .courses-lf-hd .tt-section {
+    .courses-lf-hd .tt-div {
     	display: none;
     } 
     .courses-lf-hd .tips-video {

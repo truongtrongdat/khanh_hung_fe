@@ -111,7 +111,7 @@ q,
 ruby,
 s,
 samp,
-section,
+div,
 small,
 span,
 strike,
@@ -146,7 +146,7 @@ header,
 hgroup,
 menu,
 nav,
-section {
+div {
   display: block;
 }
 body {

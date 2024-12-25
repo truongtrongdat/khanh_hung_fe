@@ -49,7 +49,7 @@ const colleagueData: ColleagueData[] = [
 
 export default function AboutMe() {
     return (
-        <section className="sec-com colleague-club">
+        <div className="sec-com colleague-club">
             <div className="colleague-club-mask"> </div>
             <div className="container">
                 <div className="title">Đồng Nghiệp nói gì về khoá học của Hùng</div>
@@ -123,6 +123,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }

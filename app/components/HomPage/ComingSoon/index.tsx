@@ -9,7 +9,7 @@ export default function ComingSoon() {
     const arr = [1,2,3,4,5,6,7,8,9,10];
 
     return (
-        <section id="coming_soon" className='w-full relative pt-0 pb-10'>
+        <div id="coming_soon" className='w-full relative pt-0 pb-10'>
         <div className='w-full h-32 bg-[#580B94] absolute transform translate-y-[-100%] rounded-t-[50%] overflow-hidden'></div>
 
         <div className='w-10/12 lg:w-8/12 max-w-[1920px] flex flex-col m-auto items-center gap-30'>
@@ -29,7 +29,7 @@ export default function ComingSoon() {
             <SwiperContainer slides={arr.map((item, index) => <ComingSoonItem key={index} />)} />
         </div>
         </div>
-      </section>
+      </div>
         
     )
 }

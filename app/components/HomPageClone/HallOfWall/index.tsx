@@ -82,7 +82,7 @@ export default function HallOfWall() {
     ];
 
     return (
-        <section className="sec-com colleague-success">
+        <div className="sec-com colleague-success">
             <svg
                 className="waves"
                 xmlns="#www.w3.org/2000/svg"
@@ -182,6 +182,6 @@ export default function HallOfWall() {
             <div id="stars" />
             <div id="stars2" />
             <div id="stars3" />
-        </section>
+        </div>
     )
 }

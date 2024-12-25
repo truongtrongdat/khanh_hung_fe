@@ -150,12 +150,12 @@ export default function AuthTabs() {
   if (isLogin) {
     return (
       <div className="banner-right rounded-lg p-8 text-center flex flex-col gap-10 items-center">
-        <h2 className="text-5xl font-bold text-white mb-4">
+        <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 text-nowrap">
           Chào mừng đồng nghiệp quay trở lại!
         </h2>
         <a
           href="/learn/study"
-          className="px-6 py-4 pb-5 bg-purple-600 text-5xl text-white rounded-md hover:bg-purple-700"
+          className="text-nowrap px-6 py-4 pb-5 bg-purple-600 text-5xl text-white rounded-md hover:bg-purple-700"
         >
           Tiếp tục học
         </a>
@@ -255,22 +255,22 @@ export default function AuthTabs() {
         <div className="flex bg-[#f41e92] pt-2 px-2 rounded-t-xl transition-all">
           <button
             className={`w-1/2 py-2 text-center font-semibold text-2xl transition-all duration-300 relative ${activeTab === "register"
-                ? "text-[#f41e92] bg-white rounded-t-lg"
-                : "text-white bg-transparent"
+              ? "text-[#f41e92] bg-white rounded-t-lg"
+              : "text-white bg-transparent"
               }`}
             onClick={() => handleTabClick("register")}
           >
-            
+
             Đăng ký ngay
           </button>
           <button
             className={`w-1/2 py-2 text-center font-semibold text-2xl transition-all duration-300 relative ${activeTab === "login"
-                ? "text-[#f41e92] bg-white rounded-t-lg"
-                : "text-white bg-transparent "
+              ? "text-[#f41e92] bg-white rounded-t-lg"
+              : "text-white bg-transparent "
               }`}
             onClick={() => handleTabClick("login")}
           >
-          
+
             Đăng nhập
           </button>
         </div>
