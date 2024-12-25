@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="vi">
       <head>
       </head>
-      <body className='sidebar-expanded'>
+      <body className=''>
         {children}
         <Toaster />
       </body>

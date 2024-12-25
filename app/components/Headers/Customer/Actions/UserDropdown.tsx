@@ -23,10 +23,10 @@ export default function UserDropdown({ isDropdown, user }: { isDropdown: boolean
             <ul className="dropdown_menu_item bg-white shadow-lg rounded-lg py-2">
                 <li>
                     <Link href="/learn/profile" className="flex items-center gap-2 px-5 py-3">
-                        <div className="flex justify-center align-middle items-center transform translate-y-[-8px]">
+                        <div className="flex justify-center align-middle items-center transform translate-y-[-8px] w[20px]">
                             <Image src="/assets/images/header/user-icon.svg" alt="profile" width={20} height={20} />
                         </div>
-                        <div className="text-nowra text-xl flex flex-col gap-2">
+                        <div className="text-nowrap text-xl flex flex-col gap-2">
                             <span className="text-gray-500 font-semibold">Mã khách hàng:</span>
                             <p className="text-black font-thin flex items-center gap-2">
                                 {user?.code || ""}
@@ -39,7 +39,7 @@ export default function UserDropdown({ isDropdown, user }: { isDropdown: boolean
                 </li>
                 <li>
                     <Link href="/learn/profile" className="flex gap-2 px-5 py-3">
-                        <div className="flex overflow-hidden">
+                        <div className="flex overflow-hidden w-[20px]">
                             <Image src="/assets/images/header/cup-icon.svg" alt="profile" width={15} height={15} />
                         </div>
                         <p className="text-gray-500 font-semibold">
@@ -52,7 +52,7 @@ export default function UserDropdown({ isDropdown, user }: { isDropdown: boolean
                 </li>
                 <li>
                     <Link href="/learn/profile" className="flex items-center gap-2 px-5 py-3">
-                        <div className="flex justify-center transform">
+                        <div className="flex justify-center transform w-[20px]">
                             <Image src="/assets/images/header/key-icon.svg" alt="profile" width={15} height={15} />
                         </div>
                         <div className="text-nowra text-xl flex flex-col gap-2">

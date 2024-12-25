@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { PlushIcon } from "../../Icon"
 
 export default function Faqs() {
-
+    const [client, setClient] = useState(false)
     const [openIndex, setOpenIndex] = useState<number | null>(null);
     const toggleAnswer = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -28,6 +28,14 @@ export default function Faqs() {
             answer: `Với DATA và đặc biệt là số liệu kinh doanh của chính khanhhung.academy`
         }
     ];
+
+    useEffect(()=>{
+        setClient(true)
+    },[])
+
+    if(!client){
+        return null
+    }
 
     return (
         <section id='faqs' className="py-10">
